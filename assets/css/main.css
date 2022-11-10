@@ -1757,12 +1757,13 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
 		}
 
-			.image.avatar48 img {
+			.image.avatar48 svg {
 				width: 48px;
 				height: 48px;
+				--logo-base-color: #fff;
+				--logo-accent-color: #ec0;
 			}
 
 		.image.fit {
